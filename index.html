@@ -130,8 +130,37 @@
 
 <!--Contact/ Get in touch  section-->
 <section id="contact">
-  
-</section>
+  <div class="container-lg">
+    <h2 class="text-center">Get In Touch</h2>
+    <p class="text-center lead">Do you have any questions concerning our services? </p>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 justify-content-center">
+        <form action="">
+          <label for="email" class="form-label">Email Address : </label>
+          <input type="email" class="form-control" id="email" placeholder=" e.g victor@example.com">
+
+          <label for="name" class="form-label">Name : </label>
+          <input type="text" id="name" class="form-control" placeholder=" e.g Victor">
+
+          <label for="select" class="form-label">Select Query :</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Query</option>
+            <option value="1">Pricing</option>
+            <option value="2">Other Services</option>
+            <option value="3">View More Samples</option>
+          </select>
+
+          <div class="form-floating my-4">
+            <textarea class="form-control" id="query" style="height: 140px;"></textarea>
+            <label for="query" class="form-label">Your Query ...</label>
+          </div>    
+          <div class="text-center mb-4">
+            <button type="sybmit" class="btn btn-secondary">Submit</button> 
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
